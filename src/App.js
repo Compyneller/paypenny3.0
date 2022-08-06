@@ -35,7 +35,7 @@ function App() {
         </Routes>
         <Qr />
         <div className="divider container"></div>
-        {window.location.href === "http://localhost:3000/uk" ? (
+        {window.location.href === "https://paypenny3-0.vercel.app/uk" ? (
           <MoneySubFooter />
         ) : (
           <SubFooter />

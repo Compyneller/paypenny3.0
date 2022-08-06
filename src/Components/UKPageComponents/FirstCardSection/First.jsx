@@ -17,9 +17,9 @@ const First = () => {
                 <h5>Super Wallet</h5>
                 <br />
                 <p>
-                  Paypenny present’s Super wallet where you can add as low as £1
-                  and as high as £50,000 as many times as you want in a single
-                  day!
+                  Paypenny present’s Super wallet where you can add as low as
+                  GBP 1 and as high as GBP 50,000 as many times as you want in a
+                  single day!
                 </p>
               </div>
             </div>
