@@ -43,10 +43,10 @@ const MoneySubFooter = () => {
                 alt=""
               />
               <div className="subFooterContent">
-                <h5>We handled over $100+ Million last year</h5>
+                <h5>We handled over £100+ Million last year</h5>
                 <p>
                   Our business’s main asset is currency. We have handled
-                  currency worth over $100+ Million in the last year.
+                  currency worth over £100+ Million in the last year.
                 </p>
               </div>
             </div>
@@ -58,7 +58,7 @@ const MoneySubFooter = () => {
                 alt=""
               />
               <div className="subFooterContent">
-                <h5>1,25,000+ happy customers & counting</h5>
+                <h5>10,000+ happy customers & counting</h5>
                 <p>
                   We have gained the trust of 1,25,000+ people to manage their
                   currency and the numbers are increasing day by day.
@@ -69,10 +69,10 @@ const MoneySubFooter = () => {
         </div>
         <br />
         <br />
-        <p className="text-light text-center">
+        {/* <p className="text-light text-center">
           Registered & regulated by FINTRAC. We are approved by the Financial
           Transactions and Reports Analysis Center of Canada.
-        </p>
+        </p> */}
         <h1
           className=" text-center"
           style={{ color: "goldenrod", fontSize: "55px" }}

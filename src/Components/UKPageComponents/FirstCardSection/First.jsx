@@ -18,7 +18,7 @@ const First = () => {
                 <br />
                 <p>
                   Paypenny present’s Super wallet where you can add as low as
-                  GBP 1 and as high as GBP 50,000 as many times as you want in a
+                  GBP 1 and as high as £ 10,000 as many times as you want in a
                   single day!
                 </p>
               </div>
@@ -51,7 +51,7 @@ const First = () => {
                 <h5>Highest Exchange Rates Guaranteed</h5>
                 <p>
                   Paypenny provides you with the highest exchange interest rates
-                  in the industry. Send Money worldwide with the flexible
+                  in the industry. Send Money to India with the flexible
                   exchange rates.
                 </p>
               </div>

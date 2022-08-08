@@ -41,7 +41,7 @@ const NavBar = () => {
             >
               {/* <img src={earn} alt="" /> */}
             </Link>
-            <Link to="/">
+            {/* <Link to="/">
               <img
                 style={{ objectFit: "cover" }}
                 src={canada}
@@ -55,7 +55,7 @@ const NavBar = () => {
                   setNavBarActive(false);
                 }}
               />
-            </Link>
+            </Link> */}
             {/* <Link
               to="/uk"
               onClick={() => {

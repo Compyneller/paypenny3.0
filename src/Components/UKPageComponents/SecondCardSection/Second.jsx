@@ -67,20 +67,7 @@ const Second = () => {
               </p>
             </div>
           </div>
-          <div className="col-12 col-lg-4">
-            <div className="blockCard2">
-              <img
-                src="https://img.icons8.com/ios-glyphs/2x/growing-money--v2.gif"
-                alt=""
-              />
-              <h5>Staking</h5>
-              <p>
-                Stake your money with 'Earn Wallet' in the Paypenny app to get
-                massive interest on your holdings. Now Invest, Hold & Earn like
-                nowhere else!
-              </p>
-            </div>
-          </div>
+
           <div className="col-12 col-lg-4">
             <div className="blockCard2">
               <img

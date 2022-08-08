@@ -4,7 +4,7 @@ import twitter from "../../Assets/twitter.svg";
 import facebook from "../../Assets/facebook.svg";
 import insta from "../../Assets/instagram.svg";
 
-const Footer = () => {
+const Footer = ({ link, text }) => {
   const scrollToTop = () => {
     window.scrollTo(0, 0);
   };
@@ -31,7 +31,7 @@ const Footer = () => {
           <Link
             style={{ textDecoration: "none" }}
             className="text-light"
-            to="/contactus"
+            to={`/${link}`}
             onClick={() => scrollToTop()}
           >
             Contact Us
@@ -51,8 +51,8 @@ const Footer = () => {
         <div className="row">
           <div className=" col-12 col-lg-10 d-flex">
             <p className="my-auto text-center">
-              © paypenny all Rights Reserved. The Brand PayPenny belongs to
-              Trackon Canada Private Limited registered in Alberta,Canada.
+              © paypenny all Rights Reserved. The Brand PayPenny belongs to{" "}
+              {text}
             </p>
           </div>
           <div className="col-12 col-lg-2 footerSocials">
