@@ -15,10 +15,10 @@ const Footer = ({ link, text }) => {
           <Link
             style={{ textDecoration: "none" }}
             className="text-light"
-            to="/tc"
+            to="/tc-uk"
             onClick={() => scrollToTop()}
           >
-            Term & Conditions
+            Terms & Conditions
           </Link>
           <Link
             style={{ textDecoration: "none" }}
