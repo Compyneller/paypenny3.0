@@ -17,6 +17,7 @@ import Blog2 from "./Pages/Blog2/Blog2";
 import MoneySubFooter from "./Components/MoneySubFooter/MoneySubFooter";
 import ContactUsUk from "./Pages/ContactUsUk";
 import TCUk from "./Pages/TCUk";
+import TCUk2 from "./Pages/TCUk2";
 
 function App() {
   console.log(window.location.href);
@@ -28,7 +29,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/privacypolicy" element={<PrivacyPolicy />} />
           <Route path="/tc" element={<TC />} />
-          <Route path="/tc-uk" element={<TCUk />} />
+          <Route path="/tc-uk" element={<TCUk2 />} />
           <Route path="/contactus" element={<ContactUs />} />
           <Route path="/contactusUk" element={<ContactUsUk />} />
           <Route path="/earns" element={<Earn />} />
