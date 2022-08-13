@@ -4,7 +4,7 @@ import twitter from "../../Assets/twitter.svg";
 import facebook from "../../Assets/facebook.svg";
 import insta from "../../Assets/instagram.svg";
 
-const Footer = ({ link, text }) => {
+const Footer = ({ link, text, linkTC, linkPP }) => {
   const scrollToTop = () => {
     window.scrollTo(0, 0);
   };
@@ -15,7 +15,7 @@ const Footer = ({ link, text }) => {
           <Link
             style={{ textDecoration: "none" }}
             className="text-light"
-            to="/tc-uk"
+            to={`/${linkTC}`}
             onClick={() => scrollToTop()}
           >
             Terms & Conditions
@@ -23,7 +23,7 @@ const Footer = ({ link, text }) => {
           <Link
             style={{ textDecoration: "none" }}
             className="text-light"
-            to="/privacypolicy"
+            to={`/${linkPP}`}
             onClick={() => scrollToTop()}
           >
             Privacy Policy

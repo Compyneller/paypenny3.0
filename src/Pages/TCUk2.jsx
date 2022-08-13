@@ -6,14 +6,6 @@ const TCUk2 = () => {
   return (
     <div className="w-100 bg-light tcMainContainer">
       <div className="container py-5 d-flex ">
-        <Link to="/">
-          <img
-            className="w-50 my-auto"
-            src="https://img.icons8.com/ios-glyphs/2x/home-page--v2.gif"
-            alt=""
-            style={{ filter: "invert(1)", mixBlendMode: "screen" }}
-          />
-        </Link>
         <h1 className="my-auto">Terms & Conditions</h1>
       </div>
 

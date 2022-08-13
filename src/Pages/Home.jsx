@@ -31,6 +31,8 @@ const Home = () => {
       <div className="divider container"></div>
       <Footer
         link="contactus"
+        linkTC="tc"
+        linkPP="privacypolicy"
         text="Trackon Canada Private Limited registered in Alberta,Canada."
       />
     </>

@@ -22,6 +22,8 @@ const PaypennyUK = () => {
       <div className="divider container"></div>
       <Footer
         link="contactUsUk"
+        linkTC="tc-uk"
+        linkPP="privacypolicy-uk"
         text="Trackon Canada private limited is registered in England and Wales with registration number 13791797."
       />
     </div>
