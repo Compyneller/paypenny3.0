@@ -426,7 +426,7 @@ const PrivacyPolicyUk = () => {
               Ensure staff is aware of the importance of maintaining the
               confidentiality of personal information;
             </li>
-            <li></li>
+
             <li>
               Use care to prevent unauthorized access when destroying or
               disposing of personal information; and

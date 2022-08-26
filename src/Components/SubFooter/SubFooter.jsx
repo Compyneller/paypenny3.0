@@ -58,7 +58,7 @@ const SubFooter = () => {
                 alt=""
               />
               <div className="subFooterContent">
-                <h5>1,25,000+ happy customers & counting</h5>
+                <h5>10,000+ happy customers & counting</h5>
                 <p>
                   We have gained the trust of 1,25,000+ people to manage their
                   currency and the numbers are increasing day by day.
@@ -77,7 +77,7 @@ const SubFooter = () => {
           className=" text-center"
           style={{ color: "goldenrod", fontSize: "55px" }}
         >
-          Trusted by over 1,25,000+ users
+          Trusted by over 10,000+ users
         </h1>
       </div>
     </div>
